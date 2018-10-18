@@ -1,0 +1,44 @@
+
+/*Table of Content*/
+#toc_container {
+    background: #f9f9f9;
+    border: 1px solid black;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 5px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;}
+
+#toc_container li, #toc_container ol, #toc_container ol li{
+    list-style: outside none none !important;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sectionstart{border-bottom: solid 1px blue;
+}
+
+.picture{
+	float: right ;
+	border: solid 1px black;
+	padding: 10px;
+	margin: 10px
+	background: #f9f9f9;
+}
+
+#title{border-bottom: solid 3px blue;}
+
